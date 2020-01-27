@@ -1,5 +1,5 @@
 import { remote } from 'electron';
-import { fromFileName, mockRequestMethods, Proto, walkServices } from 'bloomrpc-mock';
+import { fromFileName, mockRequestMethods, Proto, walkServices } from '@thinktainer/bloomrpc-mock';
 import * as path from "path";
 import { ProtoFile, ProtoService } from './protobuf';
 import { Service } from 'protobufjs';
